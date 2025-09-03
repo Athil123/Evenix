@@ -6,7 +6,7 @@ export function Footer() {
     <footer className="w-full bg-secondary py-8 text-secondary-foreground">
       <div className="container mx-auto grid grid-cols-1 gap-8 px-4 md:grid-cols-3 md:px-6">
         <div className="flex flex-col items-start space-y-2">
-          <a href="#" className="flex items-center space-x-2">
+          <a href="#" className="flex items-center">
             <Image src="/logo.png" alt="Evenix Logo" width={180} height={48} className="object-contain" />
           </a>
           <p className="text-sm text-muted-foreground pl-1">
