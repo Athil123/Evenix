@@ -6,7 +6,7 @@ export function HeroSection() {
   return (
     <section id="home" className="relative h-[80vh] min-h-[600px] w-full flex items-center justify-center text-center text-white">
       <Image
-        src="https://picsum.photos/1920/1080?q=2"
+        src="/hero image.jpg"
         alt="Modern car"
         fill
         priority
