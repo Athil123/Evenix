@@ -6,12 +6,12 @@ export function HeroSection() {
   return (
     <section id="home" className="relative h-[80vh] min-h-[600px] w-full flex items-center justify-center text-center text-white">
       <Image
-        src="https://picsum.photos/1920/1080"
-        alt="Car repair shop"
+        src="https://picsum.photos/1920/1080?q=2"
+        alt="Modern car"
         fill
         priority
         className="object-cover -z-10 brightness-50"
-        data-ai-hint="car repair garage"
+        data-ai-hint="modern car"
       />
       <div className="container px-4 md:px-6 z-10">
         <div className="flex flex-col items-center space-y-6">
