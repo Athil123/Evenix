@@ -20,7 +20,7 @@ export function AboutSection() {
           </div>
           <div className="relative h-full min-h-[300px] w-full overflow-hidden rounded-lg">
              <Image
-                src="/about image.jpg"
+                src="/about-image.jpg"
                 alt="About Evenix Automotive"
                 fill
                 className="object-cover"
