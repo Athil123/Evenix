@@ -19,7 +19,7 @@
     --popover: 157 20% 10.5%;
     --popover-foreground: 0 0% 98%;
 
-    --primary: 143 76% 55%; /* #38e07b */
+    --primary: 202 67% 50%; /* #299ad6 */
     --primary-foreground: 157 20% 7.5%;
 
     --secondary: 157 20% 13.5%;
@@ -28,7 +28,7 @@
     --muted: 157 20% 13.5%;
     --muted-foreground: 0 0% 60%;
 
-    --accent: 143 76% 55%;
+    --accent: 202 67% 50%;
     --accent-foreground: 157 20% 7.5%;
 
     --destructive: 0 62.8% 30.6%;
@@ -36,7 +36,7 @@
 
     --border: 157 20% 15.5%;
     --input: 157 20% 15.5%;
-    --ring: 143 76% 65%;
+    --ring: 202 67% 60%;
     
     --radius: 0.5rem;
   }
@@ -49,4 +49,14 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+@font-face {
+  font-family: 'Shock Surgent';
+  src: url('/fonts/Shock Surgent.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Dodger';
+  src: url('/fonts/DodgerCondensed-Wpyz9.otf') format('opentype');
 }

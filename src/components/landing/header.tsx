@@ -23,7 +23,7 @@ export function Header() {
     { href: '#home', label: 'Home' },
     { href: '#about', label: 'About' },
     { href: '#services', label: 'Services' },
-    { href: '#testimonials', label: 'Testimonials' },
+    // { href: '#testimonials', label: 'Testimonials' },
     { href: '#contact', label: 'Contact' },
   ];
 
@@ -36,7 +36,7 @@ export function Header() {
     >
       <div className="container mx-auto flex h-20 items-center justify-between px-4 md:px-6">
         <Link href="#home" className="flex items-center" aria-label="Homepage">
-          <Image src="/logo.png" alt="Evenix Logo" width={180} height={48} className="object-contain" />
+          <Image src="/logo.png" alt="Evenix Logo" width={150} height={40} className="object-contain" />
         </Link>
         <nav className="hidden md:flex items-center gap-6 text-sm font-medium">
           {navLinks.map((link) => (
@@ -65,7 +65,7 @@ export function Header() {
             <SheetContent side="right">
               <div className="grid gap-4 py-6">
                 <Link href="#home" className="flex items-center gap-2">
-                   <Image src="/logo.png" alt="Evenix Logo" width={180} height={48} className="object-contain" />
+                   <Image src="/logo.png" alt="Evenix Logo" width={150} height={40} className="object-contain" />
                 </Link>
                 <nav className="grid gap-2">
                   {navLinks.map((link) => (

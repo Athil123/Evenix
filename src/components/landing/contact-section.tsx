@@ -23,21 +23,22 @@ export function ContactSection() {
                     <MapPin className="h-6 w-6" />
                   </div>
                   <h3 className="text-lg font-semibold">Our Address</h3>
-                  <p className="text-muted-foreground">123 Auto Drive, Mechanicville, 45678</p>
+                  <p className="text-muted-foreground">AL SEIH PETROL STATION, 
+                  Al-Wajih Road - Duba</p>
                 </div>
                 <div className="flex flex-col items-center justify-center space-y-2">
                   <div className="rounded-full bg-primary p-3 text-primary-foreground">
                     <Phone className="h-6 w-6" />
                   </div>
                   <h3 className="text-lg font-semibold">Phone Number</h3>
-                  <p className="text-muted-foreground">(123) 456-7890</p>
+                  <p className="text-muted-foreground">+966 551712429</p>
                 </div>
                 <div className="flex flex-col items-center justify-center space-y-2">
                   <div className="rounded-full bg-primary p-3 text-primary-foreground">
                     <Mail className="h-6 w-6" />
                   </div>
                   <h3 className="text-lg font-semibold">Email Address</h3>
-                  <p className="text-muted-foreground">service@evenixauto.com</p>
+                  <p className="text-muted-foreground">evenixautomobile@gmail.com</p>
                 </div>
               </div>
             </CardContent>

@@ -18,8 +18,9 @@ export default {
     extend: {
       fontFamily: {
         body: ['Poppins', 'sans-serif'],
-        headline: ['Poppins', 'sans-serif'],
+        headline: ['Shock Surgent', 'sans-serif'],
         automotive: ['Orbitron', 'sans-serif'],
+        dodger: ['Dodger', 'sans-serif'],
         code: ['monospace'],
       },
       colors: {

@@ -8,7 +8,7 @@ export function AboutSection() {
           <div className="flex flex-col justify-center space-y-4">
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl font-headline text-white">
-                About Evenix Automotive
+                About Evenix
               </h2>
               <p className="max-w-[600px] text-gray-300 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 With over 15 years of experience in the automotive repair industry, Evenix Automotive Pvt. Ltd. is your trusted partner for all vehicle maintenance and repair needs. Our team of certified mechanics is committed to providing high-quality, reliable service.
