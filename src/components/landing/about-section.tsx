@@ -18,13 +18,12 @@ export function AboutSection() {
               We believe in transparency, professionalism, and customer satisfaction. Using the latest diagnostic equipment and top-grade parts, we ensure your vehicle is treated with the professional care it deserves, getting you back on the road safely and swiftly.
             </p>
           </div>
-          <div className="flex items-center justify-center">
+          <div className="relative h-full min-h-[300px] w-full overflow-hidden rounded-lg">
              <Image
-                src="https://picsum.photos/600/400"
+                src="/about image.jpg"
                 alt="About Evenix Automotive"
-                width={600}
-                height={400}
-                className="rounded-lg object-cover"
+                fill
+                className="object-cover"
                 data-ai-hint="mechanic working"
               />
           </div>
