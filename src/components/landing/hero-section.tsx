@@ -15,8 +15,8 @@ export function HeroSection() {
       />
       <div className="container px-4 md:px-6 z-10">
         <div className="flex flex-col items-center space-y-6">
-           <div className="w-full max-w-md">
-             <Image src="/logo.png" alt="Evenix Logo" width={800} height={200} className="object-contain drop-shadow-2xl" />
+           <div className="w-full max-w-4xl">
+             <h1 className="text-5xl md:text-7xl font-automotive font-bold tracking-wider uppercase text-shadow-lg drop-shadow-2xl">Evenix Automotive Pvt Ltd</h1>
            </div>
           <p className="max-w-[700px] text-lg md:text-xl text-gray-200 drop-shadow-lg">
             Reliable Repairs • Trusted Service • Professional Care
