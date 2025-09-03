@@ -2,19 +2,12 @@ import Image from "next/image";
 
 export function AboutSection() {
   return (
-    <section id="about" className="relative w-full py-12 md:py-24 lg:py-32 text-white">
-       <Image
-        src="https://picsum.photos/1600/900"
-        alt="Car engine bay"
-        fill
-        className="object-cover -z-10 brightness-[0.25]"
-        data-ai-hint="engine bay"
-      />
-      <div className="container mx-auto px-4 md:px-6 z-10 relative">
+    <section id="about" className="w-full py-12 md:py-24 lg:py-32 bg-background">
+      <div className="container mx-auto px-4 md:px-6">
         <div className="grid gap-10 lg:grid-cols-2 lg:gap-16">
           <div className="flex flex-col justify-center space-y-4">
             <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl font-headline">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl font-headline text-white">
                 About Evenix Automotive
               </h2>
               <p className="max-w-[600px] text-gray-300 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
@@ -26,7 +19,14 @@ export function AboutSection() {
             </p>
           </div>
           <div className="flex items-center justify-center">
-             {/* This space can be used for another image or content if you wish */}
+             <Image
+                src="https://picsum.photos/600/400"
+                alt="About Evenix Automotive"
+                width={600}
+                height={400}
+                className="rounded-lg object-cover"
+                data-ai-hint="mechanic working"
+              />
           </div>
         </div>
       </div>
