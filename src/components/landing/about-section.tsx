@@ -11,7 +11,7 @@ export function AboutSection() {
                 About Evenix
               </h2>
               <p className="max-w-[600px] text-gray-300 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                With over 15 years of experience in the automobile repair industry, Evenix Automobile Pvt. Ltd. is your trusted partner for all vehicle maintenance and repair needs. Our team of certified mechanics is committed to providing high-quality, reliable service.
+                With over 25 years of experience in the automobile repair industry, Evenix Automobile Pvt. Ltd. is your trusted partner for all vehicle maintenance and repair needs. Our team of certified mechanics is committed to providing high-quality, reliable service.
               </p>
             </div>
             <p className="max-w-[600px] text-gray-300 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
